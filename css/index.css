@@ -1,0 +1,161 @@
+html,body{
+    width:100%;
+    height:100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+ a{
+    text-decoration: none;
+    color:grey;
+    font-size: 20px;
+ }
+.content_container{
+    height: 100vh;
+}
+.nav-bar{
+    padding:1%;
+}
+.nav-title{
+    color:#212121;
+    font-size: 25px;
+    font-weight: 1000px;
+}
+.nav-bar ul{
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    display: inline;
+    margin: 0;
+    width: 60%;
+}
+.nav-bar ul li{
+    display:inline;
+    float: right;
+    width:8%;
+    border-radius: 8px;
+    padding:.7%;
+    
+}
+.nav-bar ul li:hover{
+    background:#F5F5F5;
+}
+
+.nav-bar ul li a{
+  display: block;
+  padding:4%;
+  text-align:center;
+    
+}
+.hero-section{
+    width: 70%;
+    margin: 12% auto;
+    text-align: center;
+}
+.hero-text{
+    font-size: 65px;
+    font-weight: 1000px;
+    margin-bottom: 2px;
+}
+.hero-sub-text{
+    color: grey;
+    font-size: 25px;
+}
+.hero-btn{
+    border: none;
+    border-radius:10px;
+    padding:2% 4%;
+    font-size: 20px;
+    background:#212121;
+    color: lightgrey;
+}
+.video-section{
+    text-align: center;
+    background:#FAFAFA;
+    padding: 2%;
+    font-family: sans-serif;
+}
+.video-section-header p:nth-child(1){
+    font-size:28px;
+    font-weight: 300px;
+    margin-bottom:0;
+}
+.video-section-header{
+    width: 50%;
+    margin: auto;
+}
+.video-section-header p:nth-child(2){
+    font-size:18px;
+    color: grey;
+    padding:0 17%;
+}
+.video iframe{
+    border: none;
+    border-radius:8px;
+}
+
+.develop-section{
+   padding: 5%;
+   display: flex;
+}
+
+.develop-section-text{
+    width: 50%;
+    padding: 5%;
+}
+.develop-section-text h2{
+   font-family: sans-serif;
+   font-size: 65px;
+   font-weight:1000px;
+   margin-bottom: 0;
+}
+.develop-section-text p{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: grey;
+    padding: 0 20% 0 0;
+ }
+.develop-image{
+    width:50%
+}
+.develop-image img{
+    width: 100%;
+    height: 100%;
+}
+.remarks-section{
+    background:#FAFAFA;
+    padding: 2%;
+    font-family: sans-serif;
+}
+.remarks-heading{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight:300px;
+    margin-bottom: 0;
+    text-align: center;
+}
+.remarks-row{
+    display: flex;
+    width:97%;
+    margin: auto;
+}
+.remarks-column{
+    margin: 1%;
+    padding: 1.3%;
+    width:32%;
+    border: 1px solid lightgrey;
+    color: grey;
+    background: white;
+    border-radius: 10px;
+}
+
+.remarks-column header{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+}
+hr{
+    color:lightgray;
+    background: lightgrey;
+}
