@@ -159,3 +159,76 @@ hr{
     color:lightgray;
     background: lightgrey;
 }
+
+.profile_details{
+    padding: 0 0 0 12%;
+}
+
+.profile_details span:nth-child(1){
+    margin-bottom: 5px;
+}
+
+.bottom-hero-section{
+    width: 70%;
+    margin:5% auto;
+    text-align: center;
+    padding:4% auto;
+}
+.bottom-hero-text{
+    font-size: 65px;
+    font-weight: 1000px;
+    margin-bottom: 2px;
+}
+.bottom-hero-text:nth-child(1){
+    margin-bottom:0;
+}
+.bottom-hero-text span{
+    color: purple;
+}
+.bottom-hero-sub-text{
+    color: grey;
+    font-size: 25px;
+}
+
+footer{
+    padding: 4%;
+}
+.footer_info{
+    display: flex;
+    width:100%;
+}
+.footer_info_item{
+    margin: 1%;
+    width: 15%;
+    padding:2%;
+    color: grey;
+}
+.footer_info_item:nth-child(5){
+    width: 35%;
+    padding:2%;
+}
+.s1{
+    width: 100%;
+    color: grey;
+}
+.s1_text{
+    color: grey;
+    background:#FAFAFA;
+    padding: 4%;
+    border-radius: 8px;
+}
+.s2{
+    width: 80%;
+    padding:4%;
+    border-radius:8px;
+    background:#212121;
+    color: lightgray;
+}
+.footer_info div p:nth-child(1){
+    font-size: 20px;
+    color: #212121;
+}
+
+.copyright_info{
+    padding: 2%;
+}
